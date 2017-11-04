@@ -1,0 +1,74 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-04 11:37:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-04 16:11:20
+*/
+body>a{
+	color: #f57129;
+	font-size: 22px;
+	position: absolute;
+	left:340px;
+	top: 458px;
+	z-index: 101;
+}
+body>div>form{
+	left:187px;
+	top:308px;
+}
+body>div>form>div{
+	width: 320px;
+	height: 28px;
+	margin-top: 136px;
+	margin-left: 10px;
+}
+body>div>form>div>span{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border: 2px solid #f57129;
+	margin-left: 10px;
+	color: #fff;
+	font-size: 20px;
+}
+body>div>form>div>label{
+	display: inline-block;
+	line-height: 24px;
+	color: #fff;
+	font-size: 20px;
+	margin-left: 10px;
+	float: right;
+}
+body>div>form>button{
+	margin-top: 75px;
+	margin-left: 90px;
+}
+body>div>div{
+	width: 750px;
+	height: 750px;
+	margin-top: 200px;
+}
+body>div>div>div[class*=orange]{
+	width: 736px;
+	height: 736px;
+}
+body>div>div>div.orange1{
+	left:-49px;
+	top:-32px;
+}
+body>div>div>div.orange2{
+	left:-27px;
+	top:-40px;
+}
+body>div>div>div.circle1{
+	left:189px;
+	top: -18px;
+}
+body>div>div>div.circle2{
+	right:197px;
+	bottom: -15px;
+}
+body>div>div>div.logo{
+	width: 150px;
+	height: 55px;
+}

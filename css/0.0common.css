@@ -1,0 +1,83 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-04 11:40:36
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-04 17:12:41
+*/
+body>div{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/0-images/banner.jpg);
+	background-size: 100% 100%;
+	overflow: hidden;
+	position: relative;
+}
+body>div>form{
+	position: absolute;
+	width: 378px;
+	z-index: 100; /*  设置堆叠顺序 */
+}
+body>div>form>input,select{
+	width: 374px;
+	height: 73px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	background-color: transparent;
+	color:#fff;
+	font-size: 27px;
+	margin-top: 26px;
+}
+
+body>div>form>input::placeholder{
+	color: #fff;
+}
+body>div>form>button{
+	width: 190px;
+	height: 80px;
+	background-color: #f57129;
+	color: #fff;
+	outline-style: none;
+	border: none;
+	border-radius: 5px;
+	font-size: 30px;
+}
+body>div>div{
+	margin: 0 auto;
+	box-sizing:border-box;
+	border:40px solid ;
+	border-color: rgba(232,232,232,0.3);
+	border-radius: 50%;
+	background-color: rgba(107,107,107,0.5);
+	background-clip: content-box;/* 解决边框透明度与背景透明叠加问题*/
+	position: relative;
+}
+body>div>div>div[class*=orange]{
+	width: 640px;
+	height: 640px;
+	border:2px dashed #f57129;
+	border-radius: 50%;
+	position: absolute;
+}
+
+body>div>div>div[class*=circle]{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: #f57129;
+	position: absolute;
+}
+
+body>div>div>div.logo{
+	margin: 0 auto;
+	margin-top: 35px;
+}
+body>div>a{
+	font-size: 25px;
+	color: #fff;
+	position: absolute;
+	right: 200px;
+	bottom:30px;
+}
+body>div>a:first-of-type{
+	left:200px;
+}

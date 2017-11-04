@@ -1,0 +1,45 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-04 09:38:47
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-04 12:18:21
+*/
+
+body>div>form{
+	left: 185px;
+	top: 715px;
+}
+
+body>div>form>button{
+	margin-left: 95px;
+	margin-top: 26px;
+}
+body>div>div{
+	width: 652px;
+	height: 652px;
+	margin-top: 500px;
+}
+body>div>div>div[class*=orange]{
+	width: 640px;
+	height: 640px;
+}
+body>div>div>div.orange1{
+	right: -20px;
+	top:-30px;
+}
+body>div>div>div.orange2{
+	left: -35px;
+	top:-40px;
+}
+body>div>div>div.circle1{
+	left:88px;
+	top:15px;
+}
+body>div>div>div.circle2{
+	right:124px;
+	bottom:0px;
+}
+body>div>div>div.logo{
+	height: 106px;
+	width: 295px;
+}
